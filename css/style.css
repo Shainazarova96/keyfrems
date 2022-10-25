@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    padding: 20px 0;
+    background: black;
+}
+
+.header-block h1 {
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.header-block h1 span {
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.header-block-bn input {
+    padding: 15px 36px;
+    border-radius: 50px;
+    /*border:none;*/
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+    color: #FFFFFF;
+    border: 2px solid white;
+}
+
+.header-block {
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.star {
+    width: 25px;
+    height: 25px;
+    color: #FF9900;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background: #FF9900;
+    margin-top: -20px;
+}
+
+.rid {
+    color: white;
+    position: absolute;
+    top: 30px;
+    left: 440px;
+}
+
+.header input {
+    background: rgba(38, 39, 43, 0.33);
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-text a  {
+    font-weight: 500;
+    font-size: 14px;
+    padding: 0 20px;
+    line-height: 17px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.header-text a:hover{
+    transition: .3s;
+    transform: scale(1.1);
+    color: #FF9900;
+}
+.header-icon ion-icon{
+    font-size: 20px ;
+    color: rgba(255, 255, 255, 0.7);
+
+
+}
+.hero-text h1{
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 116px;
+    color: #FFFFFF;
+    margin: 0 -142px 0 75px;
+}
+
+.hero-text h2{
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 116px;
+    color: #FFFFFF;
+    margin: 0 0 0 -199px;
+}
+.hero-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.sos {
+    clip-path: polygon(50% 0%, 61% 35%, 100% 46%, 66% 58%, 47% 100%, 50% 70%, 49% 100%, 32% 57%, 0 45%, 39% 35%);
+}
+.hero p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    padding: 30px 0;
+    color: #EEB563;
+
+
+}
+.staro{
+    width: 25px;
+    height: 25px;
+    color: #FF9900;
+    clip-path: polygon(50% 0%, 61% 35%, 100% 46%, 66% 58%, 47% 100%, 50% 70%, 49% 100%, 32% 57%, 0 45%, 39% 35%);
+    background: #FF9900;
+    margin: 12px 0 -23px 167px;
+
+}
+
+.prov{
+    width: 15px;
+    height: 15px;
+    background: transparent;
+    border-radius: 50px;
+    border: 1px solid white;
+    position: absolute;
+    top: 389px;
+    left: 316px;
+}
+.zvezda{
+    /*idth: 25px;*/
+    /*height: 25px;*/
+    clip-path: polygon(50% 0%, 61% 35%, 100% 46%, 66% 58%, 47% 100%, 50% 70%, 49% 100%, 32% 57%, 0 45%, 39% 35%);
+    position: absolute;
+    width: 20.40px;
+    height: 19.17px;
+    left: 851px;
+    top: 89px;
+
+    background: #0C7BFE;
+    transform: rotate(-45.16deg);
+
+
+}
+.sorcul{
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    left: 290px;
+    top: 708px;
+
+
+
+
+
+
+
+
+
+
+}
+
+#hero{
+    background: #000;
+    min-height: 200vh;
+}
+.hero-text-two{
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 116px;
+    coljor: #FFFFFF;
+}
+.hero-text-two{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px 0;
+}
+.hero-text-two h3{
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 116px;
+    color: #FFFFFF;
+    margin:0 -262px 0 0;
+
+}
+.hero span{
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 116px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-left: 223px;
+
+}
+.hero button {
+    position: absolute;
+    width: 211px;
+    height: 78px;
+    left: 1167px;
+    top: 689px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 39px;
+    transform: rotate(-90deg);
+}
+.icon{
+    margin-left: -120px;
+}
+.dot {
+    position: absolute;
+    left: 1010px;
+    top: 552px;
+    width: 225px;
+    height: 69px;
+    border: 1px solid #FFFFFF;
+    border-radius: 39px;
+    transform: rotate(-90deg);
+    background: transparent;
+}
+.btn{
+    position: absolute;
+    width: 79px;
+    height: 76px;
+    left: 1008px;
+    top: 748px;
+    border: 2px solid white;
+    background: transparent;
+    border-radius: 80px;
+}
+
+.title {
+    position: relative;
+    width: 346px;
+    height: 532px;
+    left: 400px;
+    top: 180px;
+    background: linear-gradient(354.73deg, #E4E4A8 2.81%, #5C5C56 104.28%);
+    border-radius: 209px;
+}
+
+.image {
+    position: absolute;
+    left: 260px;
+    top: 700px;
+    z-index: 99;
+
+}
